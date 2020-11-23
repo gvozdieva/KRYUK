@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/styles/fonts/GothamPro/')
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.defaultButt {
+    background-color: rgba(255, 102, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    align-self: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+body {
+    background-color: rgba(32, 36, 42, 1);
+    font-family: 'Gotham Pro';
+    header {
+        background: url('/img/bc-header.png');
+        color: rgba(255, 255, 255, 1);
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            padding: 35px 40px 0px 40px;
+            font-size: 9pt;
+            font-weight: 100;
+            .pageParts {
+                display: flex;
+                flex-direction: row;
+                .pagePartsItem {
+                    padding-right: 30px;
+                }
+            }
+            .networksAndLang {
+                display: flex;
+                flex-direction: row;
+                .networksItem {
+                    padding-left: 30px;
+                }
+                .langItem {
+                    padding-left: 30px;
+                }
+            }
+        }
+        .captionBlock {
+            padding-top: 60px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .logoBlock {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                img {
+                    width: 30px;
+                    margin: 0 auto;
+                }
+                h1 {
+                    padding-top: 30px;
+                    font-size: 21pt;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                }
+                p {
+                    font-size: 5pt;
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                }
+            }
+
+            h1 {
+                padding-top: 70px;
+                font-weight: 500;
+                font-size: 55pt;
+            }
+            .headTxt {
+                text-align: center;
+                padding-top: 30px;
+                font-weight: 100;
+                font-size: 10pt;
+                line-height: 1.5;
+            }
+            button {
+                margin: 40px 0px 245px 0px;
+            }
+        }
+    }
+    .mainContent {
+        .services {
+            background-color: rgba(43, 48, 56, 1);
+            display: flex;
+            flex-direction: column;
+            margin: 230px 100px 0px 100px;
+            .aboutClinicBlock {
+                align-self: center;
+                width: 740px;
+                background-color: rgba(249, 238, 227, 1);
+                padding: 35px 35px;
+                margin-top: -410px;
+                .txtAndArrowBlock {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    h2 {
+                        font-weight: 100;
+                        font-size: 15pt;
+                    }
+                    .arrowBlock {
+                        .main {
+                            width: 1px;
+                            height: 20px;
+                            margin-left: 2.5px;
+                            background-color: rgba(255, 102, 43, 1);
+                        }
+                        .left {
+                            width: 1px;
+                            height: 3px;
+                            margin: -3px 0px 0px 3px;
+                            transform: rotate(45deg);
+                            background-color: rgba(255, 102, 43, 1);
+                        }
+                        .right {
+                            width: 1px;
+                            height: 3px;
+                            margin: -3px 0px 0px 1px;
+                            transform: rotate(-45deg);
+                            background-color: rgba(255, 102, 43, 1);
+                        }
+                    }
+                }
+                h1 {
+                    font-weight: 500;
+                    font-size: 27pt;
+                    line-height: 1.2;
+                    padding-top: 40px;
+                    color: rgba(255, 102, 43, 1);
+                }
+                p {
+                    padding-top: 30px;
+                    width: 380px;
+                    margin-left: auto;
+                    font-weight: 100;
+                    font-size: 9pt;
+                    line-height: 1.5;
+                }
+                button {
+                    background-color: transparent;
+                    color: rgba(255, 102, 43, 1);
+                    align-self: center;
+                    margin: 70px 0px 20px 0px;
+                    padding: 10px 20px;
+                    border-radius: 3px;
+                    border-color: rgba(255, 102, 43, 1);
+                }
+            }
+            .clicnicServiceBlock {
+                color: rgba(249, 238, 227, 1);
+                width: 810px;
+                align-self: center;
+                .serviceHeader {
+                    padding-top: 100px;
+                    font-size: 27pt;
+                }
+                .allServices {
+                    padding-top: 60px;
+                    .firstLine {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        .servicesItem {
+                            width: 300px;
+                            padding-left: 70px;
+                            .circle {
+                                margin: 0px 0px -25px -40px;
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 100px;
+                                background-color: transparent;
+                                border: 1px solid rgba(255, 102, 43, 1);
+                            }
+                            .txtBlock {
+                                h3 {
+                                    font-size: 10pt;
+                                    font-weight: 500;
+                                }
+                                p {
+                                    padding-top: 20px;
+                                    font-size: 8pt;
+                                    font-weight: 100;
+                                    line-height: 1.5;
+                                }   
+                            }
+                        }
+                    }
+                    .secondLine {
+                        padding: 50px 0px 0px 0px;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        .servicesItem {
+                            width: 300px;
+                            padding-left: 70px;
+                            .circle {
+                                margin: 0px 0px -25px -40px;
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 100px;
+                                background-color: transparent;
+                                border: 1px solid rgba(255, 102, 43, 1);
+                            }
+                            .txtBlock {
+                                h3 {
+                                    font-size: 10pt;
+                                    font-weight: 500;
+                                }
+                                p {
+                                    padding-top: 20px;
+                                    font-size: 8pt;
+                                    font-weight: 100;
+                                    line-height: 1.5;
+                                }    
+                            }
+                        }
+                    }
+                }
+                button {
+                    margin-top: 50px;
+                }
+                .teamBlock {
+                    .teamHeader {
+                        padding-top: 70px;
+                        font-size: 35px;
+                    }
+                    .slider {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        padding-top: 50px;
+                        margin-bottom: -120px;
+                        .YaroslavBlock {
+                            background: url('/img/Yaroslav.png');
+                            background-size: cover;
+                        }
+                        .OlenaBlock {
+                            background: url('/img/Olena.png');
+                            background-size: cover;
+                        }
+                        .OlgaBlock {
+                            background: url('/img/Olga.png');
+                            background-size: cover;
+                        }
+                        div {
+                            height: 400px;
+                            width: 300px;
+                            margin: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

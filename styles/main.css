@@ -1,0 +1,364 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("/styles/fonts/GothamPro/");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.defaultButt {
+  background-color: #ff662b;
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-color: transparent;
+}
+
+body {
+  background-color: #20242a;
+  font-family: 'Gotham Pro';
+}
+
+body header {
+  background: url("/img/bc-header.png");
+  color: white;
+}
+
+body header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35px 40px 0px 40px;
+  font-size: 9pt;
+  font-weight: 100;
+}
+
+body header .menu .pageParts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body header .menu .pageParts .pagePartsItem {
+  padding-right: 30px;
+}
+
+body header .menu .networksAndLang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body header .menu .networksAndLang .networksItem {
+  padding-left: 30px;
+}
+
+body header .menu .networksAndLang .langItem {
+  padding-left: 30px;
+}
+
+body header .captionBlock {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header .captionBlock .logoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header .captionBlock .logoBlock img {
+  width: 30px;
+  margin: 0 auto;
+}
+
+body header .captionBlock .logoBlock h1 {
+  padding-top: 30px;
+  font-size: 21pt;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+body header .captionBlock .logoBlock p {
+  font-size: 5pt;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+body header .captionBlock h1 {
+  padding-top: 70px;
+  font-weight: 500;
+  font-size: 55pt;
+}
+
+body header .captionBlock .headTxt {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 100;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+body header .captionBlock button {
+  margin: 40px 0px 245px 0px;
+}
+
+body .mainContent .services {
+  background-color: #2b3038;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 230px 100px 0px 100px;
+}
+
+body .mainContent .services .aboutClinicBlock {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 740px;
+  background-color: #f9eee3;
+  padding: 35px 35px;
+  margin-top: -410px;
+}
+
+body .mainContent .services .aboutClinicBlock .txtAndArrowBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .mainContent .services .aboutClinicBlock .txtAndArrowBlock h2 {
+  font-weight: 100;
+  font-size: 15pt;
+}
+
+body .mainContent .services .aboutClinicBlock .txtAndArrowBlock .arrowBlock .main {
+  width: 1px;
+  height: 20px;
+  margin-left: 2.5px;
+  background-color: #ff662b;
+}
+
+body .mainContent .services .aboutClinicBlock .txtAndArrowBlock .arrowBlock .left {
+  width: 1px;
+  height: 3px;
+  margin: -3px 0px 0px 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: #ff662b;
+}
+
+body .mainContent .services .aboutClinicBlock .txtAndArrowBlock .arrowBlock .right {
+  width: 1px;
+  height: 3px;
+  margin: -3px 0px 0px 1px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #ff662b;
+}
+
+body .mainContent .services .aboutClinicBlock h1 {
+  font-weight: 500;
+  font-size: 27pt;
+  line-height: 1.2;
+  padding-top: 40px;
+  color: #ff662b;
+}
+
+body .mainContent .services .aboutClinicBlock p {
+  padding-top: 30px;
+  width: 380px;
+  margin-left: auto;
+  font-weight: 100;
+  font-size: 9pt;
+  line-height: 1.5;
+}
+
+body .mainContent .services .aboutClinicBlock button {
+  background-color: transparent;
+  color: #ff662b;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 70px 0px 20px 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-color: #ff662b;
+}
+
+body .mainContent .services .clicnicServiceBlock {
+  color: #f9eee3;
+  width: 810px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .mainContent .services .clicnicServiceBlock .serviceHeader {
+  padding-top: 100px;
+  font-size: 27pt;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices {
+  padding-top: 60px;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .firstLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .firstLine .servicesItem {
+  width: 300px;
+  padding-left: 70px;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .firstLine .servicesItem .circle {
+  margin: 0px 0px -25px -40px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 1px solid #ff662b;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .firstLine .servicesItem .txtBlock h3 {
+  font-size: 10pt;
+  font-weight: 500;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .firstLine .servicesItem .txtBlock p {
+  padding-top: 20px;
+  font-size: 8pt;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .secondLine {
+  padding: 50px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .secondLine .servicesItem {
+  width: 300px;
+  padding-left: 70px;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .secondLine .servicesItem .circle {
+  margin: 0px 0px -25px -40px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 1px solid #ff662b;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .secondLine .servicesItem .txtBlock h3 {
+  font-size: 10pt;
+  font-weight: 500;
+}
+
+body .mainContent .services .clicnicServiceBlock .allServices .secondLine .servicesItem .txtBlock p {
+  padding-top: 20px;
+  font-size: 8pt;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+body .mainContent .services .clicnicServiceBlock button {
+  margin-top: 50px;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .teamHeader {
+  padding-top: 70px;
+  font-size: 35px;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding-top: 50px;
+  margin-bottom: -120px;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider .YaroslavBlock {
+  background: url("/img/Yaroslav.png");
+  background-size: cover;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider .OlenaBlock {
+  background: url("/img/Olena.png");
+  background-size: cover;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider .OlgaBlock {
+  background: url("/img/Olga.png");
+  background-size: cover;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider div {
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+}
+/*# sourceMappingURL=main.css.map */
