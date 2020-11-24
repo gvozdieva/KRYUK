@@ -228,43 +228,67 @@ body {
                 }
                 .teamBlock {
                     .teamHeader {
-                        padding-top: 70px;
+                        padding: 70px 0px 400px 0px;
                         font-size: 35px;
                     }
-                    .slider {
-                        display: flex;
-                        flex-flow: row nowrap;
-                        padding-top: 50px;
-                        margin-bottom: -120px;
-                        .YaroslavBlock {
-                            background: url('/img/Yaroslav.png');
-                            background-size: cover;
-                        }
-                        .OlenaBlock {
-                            background: url('/img/Olena.png');
-                            background-size: cover;
-                        }
-                        .OlgaBlock {
-                            background: url('/img/Olga.png');
-                            background-size: cover;
-                        }
-                        div {
-                            height: 400px;
-                            width: 350px;
-                            margin: 10px;
-                            display: flex;
-                            justify-content: flex-end;
-                            flex-flow: column nowrap;
-                            h3 {
-                                padding: 0px 10px 0px 15px;
-                                font-size: 12pt;
-                                font-weight: 500;
+                    *,
+                    ::before,
+                    ::after {
+                        box-sizing: content-box;
+                    }
+                    .wrapper {
+                        margin-top: -400px;
+                        position: absolute;
+                        width: 810px;
+                        .slider-conteiner {
+                            overflow-x: scroll;
+                            .slider-track {
+                                display: flex;
+                                flex-flow: row nowrap;
+                                padding-top: 50px;
+                                margin-bottom: -150px;
+                                .YaroslavBlock {
+                                    background: url('/img/Yaroslav.png');
+                                    background-size: cover;
+                                }
+                                .OlenaBlock {
+                                    background: url('/img/Olena.png');
+                                    background-size: cover;
+                                }
+                                .OlgaBlock {
+                                    background: url('/img/Olga.png');
+                                    background-size: cover;
+                                }
+                                div {
+                                    height: 400px;
+                                    width: 250px;
+                                    margin: 10px;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    flex-flow: column nowrap;
+                                    h3 {
+                                        padding: 0px 10px 0px 15px;
+                                        font-size: 12pt;
+                                        font-weight: 500;
+                                    }
+                                    p {
+                                        padding: 15px 10px 20px 15px;
+                                        font-size: 7pt;
+                                        font-weight: 100;
+                                    }
+                                }
                             }
-                            p {
-                                padding: 15px 10px 20px 15px;
-                                font-size: 7pt;
-                                font-weight: 100;
-                            }
+                        }
+                    }
+                    
+                    .slider-buttons {
+                        button {
+                            font-family: 'Gotham Pro';
+                            background-color: transparent;
+                            color: #ffffff;
+                            border: 0px solid transparent;
+                            font-size: 33pt;
+                            font-weight: 100;
                         }
                     }
                 }

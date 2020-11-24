@@ -325,11 +325,28 @@ body .mainContent .services .clicnicServiceBlock button {
 }
 
 body .mainContent .services .clicnicServiceBlock .teamBlock .teamHeader {
-  padding-top: 70px;
+  padding: 70px 0px 400px 0px;
   font-size: 35px;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider {
+body .mainContent .services .clicnicServiceBlock .teamBlock *,
+body .mainContent .services .clicnicServiceBlock .teamBlock ::before,
+body .mainContent .services .clicnicServiceBlock .teamBlock ::after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper {
+  margin-top: -400px;
+  position: absolute;
+  width: 810px;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner {
+  overflow-x: scroll;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,27 +355,27 @@ body .mainContent .services .clicnicServiceBlock .teamBlock .slider {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   padding-top: 50px;
-  margin-bottom: -120px;
+  margin-bottom: -150px;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider .YaroslavBlock {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track .YaroslavBlock {
   background: url("/img/Yaroslav.png");
   background-size: cover;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider .OlenaBlock {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track .OlenaBlock {
   background: url("/img/Olena.png");
   background-size: cover;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider .OlgaBlock {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track .OlgaBlock {
   background: url("/img/Olga.png");
   background-size: cover;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider div {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track div {
   height: 400px;
-  width: 350px;
+  width: 250px;
   margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -372,15 +389,24 @@ body .mainContent .services .clicnicServiceBlock .teamBlock .slider div {
           flex-flow: column nowrap;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider div h3 {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track div h3 {
   padding: 0px 10px 0px 15px;
   font-size: 12pt;
   font-weight: 500;
 }
 
-body .mainContent .services .clicnicServiceBlock .teamBlock .slider div p {
+body .mainContent .services .clicnicServiceBlock .teamBlock .wrapper .slider-conteiner .slider-track div p {
   padding: 15px 10px 20px 15px;
   font-size: 7pt;
+  font-weight: 100;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider-buttons button {
+  font-family: 'Gotham Pro';
+  background-color: transparent;
+  color: #ffffff;
+  border: 0px solid transparent;
+  font-size: 33pt;
   font-weight: 100;
 }
 
