@@ -358,7 +358,294 @@ body .mainContent .services .clicnicServiceBlock .teamBlock .slider .OlgaBlock {
 
 body .mainContent .services .clicnicServiceBlock .teamBlock .slider div {
   height: 400px;
-  width: 300px;
+  width: 350px;
   margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider div h3 {
+  padding: 0px 10px 0px 15px;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+body .mainContent .services .clicnicServiceBlock .teamBlock .slider div p {
+  padding: 15px 10px 20px 15px;
+  font-size: 7pt;
+  font-weight: 100;
+}
+
+body .mainContent .vacancies {
+  color: #f9eee3;
+  margin-top: 220px;
+  background: url("/img/vacancies-bc.png");
+  background-size: cover;
+  padding: 80px 0px 0px 260px;
+}
+
+body .mainContent .vacancies h1 {
+  font-size: 27pt;
+  font-weight: 500;
+}
+
+body .mainContent .vacancies p {
+  padding-top: 80px;
+  width: 450px;
+  font-size: 12pt;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+body .mainContent .vacancies button {
+  margin: 50px 0px 90px 0px;
+}
+
+body footer {
+  color: #f9eee3;
+  padding: 70px 0px 0px 260px;
+}
+
+body footer h1 {
+  font-size: 26pt;
+  font-weight: 500;
+}
+
+body footer .reasonsBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding-top: 55px;
+}
+
+body footer .reasonsBlock .firstBlock {
+  background: url("/img/reason-1.png");
+  background-size: cover;
+}
+
+body footer .reasonsBlock .secondBlock {
+  background: url("/img/reason-2.png");
+  background-size: cover;
+}
+
+body footer .reasonsBlock .thirdBlock {
+  background: url("/img/reason-3.png");
+  background-size: cover;
+}
+
+body footer .reasonsBlock div {
+  height: 400px;
+  width: 255px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .reasonsBlock div .number {
+  margin: -10px 0px 0px -5px;
+  color: white;
+  font-size: 152pt;
+  font-weight: 600;
+}
+
+body footer .reasonsBlock div .txtBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 75px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+body footer .reasonsBlock div .txtBlock h3 {
+  color: #20242a;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+body footer .reasonsBlock div .txtBlock .txt {
+  padding-top: 20px;
+  color: #20242a;
+  font-size: 9pt;
+  font-weight: 200;
+  line-height: 1;
+}
+
+body footer .contactsAndMap {
+  padding-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body footer .contactsAndMap .contactsBlock h1 {
+  font-size: 27pt;
+  font-weight: 500;
+}
+
+body footer .contactsAndMap .contactsBlock .phoneAndMail {
+  padding-top: 60px;
+}
+
+body footer .contactsAndMap .contactsBlock .phoneAndMail h4 {
+  font-size: 16pt;
+  font-weight: 200;
+}
+
+body footer .contactsAndMap .contactsBlock .phoneAndMail p {
+  padding-top: 40px;
+  color: #ff662b;
+  font-size: 25pt;
+  font-weight: 500;
+}
+
+body footer .contactsAndMap .contactsBlock .adress {
+  padding-top: 45px;
+}
+
+body footer .contactsAndMap .contactsBlock .adress h4 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 8pt;
+  font-weight: 500;
+}
+
+body footer .contactsAndMap .contactsBlock .adress p {
+  padding-top: 8px;
+  font-size: 17pt;
+  font-weight: 200;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule {
+  padding-top: 35px;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule h4 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 8pt;
+  font-weight: 500;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule .days {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule .days div {
+  padding-right: 22px;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule .days div h5 {
+  font-size: 10pt;
+  font-weight: 100;
+}
+
+body footer .contactsAndMap .contactsBlock .schedule .days div p {
+  padding-top: 10px;
+  font-size: 10pt;
+  font-weight: 600;
+}
+
+body footer .contactsAndMap .contactsBlock button {
+  margin-top: 70px;
+}
+
+body footer .contactsAndMap .mapBlock .cicle-1 {
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  border: 1px solid #ff662b;
+  border-radius: 500px;
+  margin: 20px 0px 0px 150px;
+  position: absolute;
+}
+
+body footer .contactsAndMap .mapBlock .cicle-2 {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  background-color: transparent;
+  border: 1px solid rgba(249, 238, 227, 0.3);
+  border-radius: 500px;
+  margin: 70px 0px 0px 50px;
+}
+
+body footer .contactsAndMap .mapBlock .map {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 500px;
+  background: url("/img/map.png");
+  background-size: cover;
+  margin: -510px 0px 0px 115px;
+}
+
+body footer .createdBlock {
+  padding: 100px 260px 100px 0px;
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  font-size: 7pt;
+  font-weight: 100;
+}
+
+body footer .createdBlock .logoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body footer .createdBlock .logoBlock img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: -10px 0px 0px 10px;
+  width: 20px;
 }
 /*# sourceMappingURL=main.css.map */
